@@ -1,0 +1,68 @@
+<style type="text/css">
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: arial;
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-size: cover;
+}
+.main {
+  margin: 2%;
+}
+
+.card {
+  width: 15%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px rgb(97, 238, 15);
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 0px;
+  text-align: center;
+
+  padding-top: 10px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button{
+  background-color:rgb(219, 12, 238);
+  border-color: rgb(240, 2, 2);
+  border-radius: 25%;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
